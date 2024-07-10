@@ -2,7 +2,30 @@
 layout: default
 ---
 <link href="/css/override.css" rel="stylesheet" type="text/css">
+<link href="/styles/darkmode.css" rel="stylesheet" type="text/css">
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+  <button id="dark-mode-toggle">Toggle Dark Mode</button>
+  {{ content }}
+
+  <script>
+      // Check for saved user preference, if any, on load of the website
+      window.onload = function() {
+          const savedMode = localStorage.getItem('dark-mode');
+          if (savedMode && savedMode === 'enabled') {
+              document.body.classList.add('dark-mode');
+          }
+      }
+
+      // Toggle dark mode
+      document.getElementById('dark-mode-toggle').onclick = function() {
+          document.body.classList.toggle('dark-mode');
+          if (document.body.classList.contains('dark-mode')) {
+              localStorage.setItem('dark-mode', 'enabled');
+          } else {
+              localStorage.setItem('dark-mode', 'disabled');
+          }
+      }
+  </script>
 
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
