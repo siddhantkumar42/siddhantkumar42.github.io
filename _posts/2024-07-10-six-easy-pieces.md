@@ -22,7 +22,7 @@ This is true for the first five chapters; however, the sixth chapter, "Quantum B
 - **Engaging Introduction to Science:** The first five chapters effectively introduce scientific concepts in an engaging manner, making them accessible to beginners.
 - **Clear and Approachable Language:** The book uses clear language throughout, ensuring that readers can easily grasp complex ideas without difficulty.
 - **Concise and Manageable:** It's a short read, which makes it convenient for readers looking to explore fundamental scientific principles without committing to a lengthy book.
-**Fascinating Insights into Astronomy:** The astronomy section within the chapter Relation Of Physics To Other Sciences provides captivating insights that deepen understanding across scientific disciplines.
+- **Fascinating Insights into Astronomy:** The astronomy section within the chapter Relation Of Physics To Other Sciences provides captivating insights that deepen understanding across scientific disciplines.
 
 ## Cons
 - **Limited Pedagogical Value:** While informative, the book isn't designed primarily for formal education purposes in schools or as a comprehensive introduction to science for students.
