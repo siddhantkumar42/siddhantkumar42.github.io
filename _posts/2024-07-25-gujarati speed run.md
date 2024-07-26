@@ -109,3 +109,5 @@ iex(5)>
 ```
 
 Cool stuff, `'ABC'` is basically a list of integers in which each element represents a single character.
+
+# Day 3
