@@ -22,7 +22,7 @@ I should start with Elixir too now. I will start read the book. The code in this
 
 I should start working out at home daily too. I will start today. 
 
-Here's your code with proper indentation in a code block:
+(Yes I used ChatGPT to indent the code below, no I don't intend to use ChatGPT to indent any actual codes I write.)
 
 ```erlang
 -module(sum_server).
@@ -62,7 +62,7 @@ I can't ever imagine myself writing a code like this just to add two numbers. Th
 
 ***"It’s often said that Erlang makes hard things easy and easy things hard."***
 
-```
+```erlang
 defmodule SumServer do
   use GenServer
 
@@ -82,7 +82,7 @@ end
 
 This is the same code, to add two numbers, but written in Elixir. Makes it simpler.
 
-```
+```erlang
 defmodule SumServer do
   use ExActor.GenServer
 
@@ -101,3 +101,11 @@ I need not mention all this comes directly from the book, Elixir in Action.
 I have been practicing the Gujarati script, the letters are sometimes confusing when I compare them to Hindi.
 
 The book is done with introducing me to the history, pros and cons of Elixir and Erlang. It's time to actually move on to writing some code.
+
+```
+iex(4)> [65, 66, 67]
+~c"ABC"
+iex(5)>
+```
+
+Cool stuff, `'ABC'` is basically a list of integers in which each element represents a single character.
