@@ -102,7 +102,7 @@ I have been practicing the Gujarati script, the letters are sometimes confusing 
 
 The book is done with introducing me to the history, pros and cons of Elixir and Erlang. It's time to actually move on to writing some code.
 
-```
+```erlang
 iex(4)> [65, 66, 67]
 ~c"ABC"
 iex(5)>
@@ -111,3 +111,41 @@ iex(5)>
 Cool stuff, `'ABC'` is basically a list of integers in which each element represents a single character.
 
 # Day 3
+
+Learning about basic conversations in Gujarati. This book has dialogues between people I can read and learn from.
+
+I am done with learning about [`iex`](https://hexdocs.pm/iex/1.14.5/IEx.html), working with variables, organizing code, understanding the type system and how the runtime works. I will learn more about [`mix`](https://hexdocs.pm/elixir/introduction-to-mix.html) sometime later.
+
+I am also learning how to edit video clips I like to shoot randomly so I can upload them to youtube. Maybe one day I will post about them here.
+
+I came to learn about something interesting about Elixir, the `^` operator. It is known as the *pin* operator. Basically it is used to match against a variable:
+
+```erlang
+iex(8)> expected_variable = "expected"
+"expected"
+iex(9)> {^expected_variable, _} = {"expected", "something else"}
+{"expected", "something else"}
+iex(10)> {^expected_variable, _} = {"not expected", "something else"}
+** (MatchError) no match of right hand side value: {"not expected", "something else"}
+    (stdlib 6.0.1) erl_eval.erl:652: :erl_eval.expr/6
+    iex:10: (file)
+iex(10)> 
+```
+
+Another case of matching:
+
+```erlang
+iex(1)> command = "ping siddhantreal.tech"
+"ping siddhantreal.tech"
+iex(2)> command = "ping www.github.com"
+"ping www.github.com"
+iex(3)> "ping " <> url = command
+"ping www.github.com"
+iex(4)> command
+"ping www.github.com"
+iex(5)> url
+"www.github.com"
+iex(6)> 
+```
+
+By writing `"ping " <> url = command`, you expect that the command variable is a binary string which starts with `"ping "`. If found true, the <> operator binds the rest of the string in a `url` variable. Otherwise this will raise an error.
