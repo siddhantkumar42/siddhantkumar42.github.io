@@ -149,3 +149,9 @@ iex(6)>
 ```
 
 By writing `"ping " <> url = command`, you expect that the command variable is a binary string which starts with `"ping "`. If found true, the <> operator binds the rest of the string in a `url` variable. Otherwise this will raise an error.
+
+# Day 4
+
+Read Elixir in Action a bit, no significant progress in either Elixir or Gujarati.
+
+# Day 5
