@@ -155,3 +155,7 @@ By writing `"ping " <> url = command`, you expect that the command variable is a
 Read Elixir in Action a bit, no significant progress in either Elixir or Gujarati.
 
 # Day 5
+
+I have started thinking about a project I will do soon. I will call it `The Nazrin Stock Index`. First I will get done with this book then I will jump to making an API.
+
+Also learning about [Figma](https://figma.com) using [this](https://youtu.be/ezldKx-jPag) tutorial I found on YouTube, hopefully this is enough to get me started. I suck at UI/UX development. Maybe I will get better with time.
