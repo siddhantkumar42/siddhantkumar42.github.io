@@ -165,3 +165,11 @@ Also learning about [Figma](https://figma.com) using [this](https://youtu.be/ezl
 Started learning Godot.
 
 # Day 7
+
+Zero progress today, tomorrow I will set goals.
+
+# Day 8
+
+Goal: 50 pages of `Elixir in Action`
+
+Goal: 10 pages of `Gujarati - Teach Yourself`
