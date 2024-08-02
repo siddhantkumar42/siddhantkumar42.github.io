@@ -173,3 +173,9 @@ Zero progress today, tomorrow I will set goals.
 Goal: 50 pages of `Elixir in Action`
 
 Goal: 10 pages of `Gujarati - Teach Yourself`
+
+Update: Didn't complete either of this
+
+# Day 9, 
+
+BREAK BREAK BREAK MIND RESET MIND RESET SOS
